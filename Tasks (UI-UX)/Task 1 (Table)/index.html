@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Task</title>
+
+    <style>
+        table, th, tr, td {
+            border: 2px solid;
+            border-collapse: collapse;
+        }
+    </style>
+
+</head>
+<body>
+
+<h3>Table 1</h3>
+<!-- Table 1 -->
+<table>
+    <thead style="height: 30px;">
+        <tr>
+            <th colspan="4">New Employees Records</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>Name</td>
+            <td colspan="2">Jobs</td>
+            <td>Working Experience</td>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>Software Engineer</td>
+            <td>Data Analyst</td>
+            <td rowspan="2">John</td>
+        </tr>
+        <tr>
+            <td>Ale</td>
+            <td colspan="2">Senior Web Developer</td>
+        </tr>
+        <tr>
+            <td>Jack</td>
+            <td>Junior Tech Writer</td>
+            <td>Blogger Writer</td>
+            <td rowspan="2">6 Months</td>
+        </tr>
+    </tbody>
+</table> 
+
+<br><hr>
+<h3>Table 2</h3>
+<!-- Table 2 -->
+ <table>
+    <thead>
+        <tr style="height: 30px;">
+            <th>Header</th>
+            <th>Header</th>
+            <th>Header</th>
+            <th>Header</th>  
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td rowspan="4">span</td>
+            <td colspan="3">span</td>
+        </tr>           
+        <tr>
+            <td colspan="2">span</td>
+            <td rowspan="3">span</td>
+        </tr>
+        <tr>
+            <td rowspan="2">span</td>
+            <td>span</td>
+        </tr>
+        <tr>
+            <td>span</td>
+        </tr>
+    </tbody>
+ </table>
+
+ <br><hr>
+ <h3>Table 3</h3>
+ <!-- Table 3 (Time Table) -->
+  <table style="border: 3.5px solid;">
+    <thead>
+        <tr style="height: 70px;">
+            <th>Day/Period</th>
+            <th>I <br>9:30-10:20 </th>  
+            <th>II <br>10:20-11:10 </th>
+            <th>III <br>11:10-12:00 </th>
+            <th> <br>12:00-12:40 </th>
+            <th>IV <br>12:40-1:30 </th>
+            <th>V <br>1:30-2:20 </th>
+            <th>VI <br>2:20-3:10 </th>
+            <th>VII <br>3:10-4:00  </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr style="height: 50px;" align="center">
+            <td><b>Monday</b></td>
+            <td>Eng</td>
+            <td>Mat</td>
+            <td>Che</td>
+            <td rowspan="6" align="center"><b>L<br>U<br>N<br>C<br>H</b></td>
+            <td colspan="3">LAB</td>
+            <td>Phy</td>
+        </tr>
+        <tr style="height: 50px;" align="center">
+            <td><b>Tuesday</b></td>
+            <td colspan="3">LAB</td>
+            <td>Eng</td>
+            <td>Che</td>
+            <td>Mat</td>         
+            <td>SPORTS</td>
+        </tr>
+        <tr style="height: 50px;" align="center">
+            <td><b>Wednesday</b></td>
+            <td>Mat</td>
+            <td>Phy</td>
+            <td>Eng</td>
+            <td>Che</td>
+            <td colspan="3">LIBRARY</td>
+        </tr>
+        <tr style="height: 50px;" align="center">
+            <td><b>Thursday</b></td>
+            <td>Phy</td>
+            <td>Eng</td>
+            <td>Che</td>
+            <td colspan="3">LAB</td>
+            <td>Mat</td>
+        </tr>
+        <tr style="height: 50px;" align="center">
+            <td><b>Friday</b></td>
+            <td colspan="3">LAB</td>
+            <td>Mat</td>
+            <td>Che</td>
+            <td>Eng</td>      
+            <td>Phy</td>
+        </tr>
+        <tr style="height: 50px;" align="center">
+            <td><b>Saturday</b></td>
+            <td>Eng</td>
+            <td>Che</td>
+            <td>Mat</td>
+            <td colspan="3">SEMINAR</td>
+            <td>SPORTS</td>
+        </tr>
+    </tbody>
+  </table>
+
+  <br><hr>
+  <h3>Table 4</h3>
+  <!-- Table 4 -->
+   <table>
+    <thead align="center" style="height: 40px;">
+        <tr>
+            <th>Student Name</th>
+            <th>Student Reg No.</th>
+            <th>Subject Name</th>
+            <th>Obtained Marks</th>
+            <th>Total Marks</th>
+            <th>Average Marks</th>
+        </tr>
+    </thead>
+
+    <tbody align="center">
+        <tr>
+            <td rowspan="3">Alan</td>
+            <td rowspan="3">Std-01</td>
+            <td style="height: 35px;">Math</td>
+            <td style="height: 35px;">50.00</td>
+            <td rowspan="3">150.00</td>
+            <td rowspan="3">50.00</td>
+        </tr>
+        <tr>
+            <td style="height: 35px;">Physics</td>
+            <td style="height: 35px;">50.00</td>
+        </tr>
+        <tr>
+            <td style="height: 35px;">Chemistry</td>
+            <td style="height: 35px;">50.00</td>
+        </tr>
+        
+        <tr>
+            <td rowspan="3">Scott</td>
+            <td rowspan="3">Std-02</td>
+            <td style="height: 35px;">Math</td>
+            <td style="height: 35px;">50.00</td>
+            <td rowspan="3">150.00</td>
+            <td rowspan="3">50.00</td>
+        </tr>
+        <tr>
+            <td style="height: 35px;">Physics</td>
+            <td style="height: 35px;">50.00</td>
+        </tr>
+        <tr>
+            <td style="height: 35px;">Chemistry</td>
+            <td style="height: 35px;">50.00</td>
+        </tr>
+
+        <tr>
+            <td rowspan="3">John</td>
+            <td rowspan="3">Std-03</td>
+            <td style="height: 35px;">Math</td>
+            <td style="height: 35px;">50.00</td>
+            <td rowspan="3">150.00</td>
+            <td rowspan="3">50.00</td>
+        </tr>
+        <tr>
+            <td style="height: 35px;">Physics</td>
+            <td style="height: 35px;">50.00</td>
+        </tr>
+        <tr>
+            <td style="height: 35px;">Chemistry</td>
+            <td style="height: 35px;">50.00</td>
+        </tr>
+
+    </tbody>
+
+   </table>
+
+
+ <br><br>
+ <strong><a href="./table.html">NEXT</a></strong>  
+ <br><br><br>
+
+</body>
+</html>

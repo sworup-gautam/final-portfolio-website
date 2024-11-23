@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+}
+ul{
+        list-style-type: none;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 10px 20px;
+    border-bottom: 1px solid #eaeaea;
+    /* top: 0; */
+}
+
+button{
+    background-color: #1E375C;
+    border-radius: 3px;
+    border: 0;
+}
+
+/* Logo */
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+    color: #000;
+    font-family: 'Segoe UI', sans-serif;
+                                                
+}
+
+/* Search Bar */
+.search-bar {
+    flex-grow: 1;
+    margin: 0 20px;
+    position: relative;
+}
+
+.search-bar input {
+    height: 15px;
+    width: 200px;
+    padding: 8px 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+
+/* Right-Side Icons */
+.nav-icons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.author-details{
+    display: flex;
+    gap: 15px;
+}
+.follow{
+    text-decoration: none;
+    color: green;
+}
+
+
+
+.parent{ 
+    display: flex; 
+    
+}
+
+/* .child{
+    display: flex;
+} */
+
+
+.box{
+    
+    align-content: start;
+    overflow-y: scroll;
+    /* justify-content: center; */
+    font-size: 20px;
+    height: 100vh;
+    /* width: 200px; */
+    width: 17vw;
+    background-color:#111C43;
+    color: #9ca7c9 ;
+}
+
+.parent2{
+    /* display: flex; */
+    padding: 20px 10px;
+    height: 86vh;
+    background-color: #F0F1F7;
+}
+
+.parent01{
+    display: flex;
+    gap: 20px;
+    height: 200px;
+    width: 350px;
+    
+    
+}
+
+.child02{
+
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.flexbox{
+    height: 100px;
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+.box1 img{
+    border-radius: 10px;
+
+}

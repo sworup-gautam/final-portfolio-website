@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medium-Like Navbar</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <nav class="navbar">
+        <!-- Left: Logo -->
+        <div class="logo">Medium</div>
+        
+        <!-- Center: Search bar -->
+        <div class="search-bar">
+            <input type="text" placeholder="Search">
+        </div>
+        
+        <!-- Right: Profile & Icons -->
+        <div class="nav-icons">
+            <!-- <a href="#" class="icon write">Write</a> --> 
+             <p>Write</p>
+            <!-- <a href="#" class="icon bell">🔔</a> -->
+             <p>🔔</p>
+            <div class="profile-icon">
+                <!-- <img src="https://via.placeholder.com/30" alt="Profile"> -->
+                <img style="height: 25px; width: 25px; padding-top: 5px;"  src="./profile-icon.png" alt="Profile">
+            </div>
+        </div>
+    </nav>
+
+    <div class="parent">
+        <!--  .child*6  -->
+         <div style="width: 700px;" class="child"></div>
+
+         <div class="child">
+            <h1 style="font-weight:800; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Live Template in Android Studio</h1>
+
+            <div class="author-details">
+
+            <div class="profile-pic">
+                <img style="height: 35px; width: 35px;" src="./profile-icon.png" alt="Profile">
+            </div>
+
+
+            <div class="details">
+                <div class="name">
+                    Sworup Gautam <span class="follow">· <a style="color: green;" href="#">Follow</a></span>
+                </div>
+                <p2>
+                    5 min read · Dec 13, 2023
+                </p2>
+<hr style="width: 500px;">
+            </div>
+           </div>
+
+        <p>When you are typing something in the Android Studio it shows you a bunch of suggestion which when selected writes certain code in your editor.</p>
+        <br>
+        <img src="./GIF1.gif" alt="GIF1"> <br><br>
+           <p>This reduces your time to write code manually and increases productivity. But there are only a certain number of code completion shortcuts that are available to you readily.</p>
+           <p>In this blog, I will show you how we can use the same feature to generate the code that we have to write too often or too long in no time and save time.</p>
+           <p>The feature is called Live Template in Android Studio but this feature can be used in any IntelliJ IDE and to any kind of file that it supports. To access the Live Template, Goto Preference/Settings (⌘ , in Mac and Ctrl+Alt+S in Windows/Linux) of Android Studio. In the Editor menu, there is a sub-menu called Live Templates. There you can see all the existing shortcuts that are available by default or through plugins.</p>
+           <br><i>| This feature is available for other languages like .js, .ts, .java, .kt and more</i>
+           <br><br>
+           <p>When you press the plus button then it shows the option to create a Live Template or Template Group. You can first create a Template Group to distinguish yours from other templates. Let’s name it Custom. If there is already one you can reuse it or name it differently. Select the custom template you want to use, then press the + button. This time select a Live Template. A small form will show up at the bottom.</p>
+
+           <br> <img style="height: 300px;" src="./IMG.webp" alt="IMG"> <br>
+           <p>Here I have added an abbreviation for imm . In the template text, I have written the code to import the material from the flutter package. This might seem pretty useless and simple code to generate but it's easier to understand. ( We will be moving to advance stuff later). In the context field, I have selected the autocomplete to work only in dart files and in top-level meaning, not inside any class or functions.</p>
+           <br><br><br>
+
+         </div>
+
+         <div style="width: 500px;" class="child"></div>
+     
+        </div>
+    
+
+</body>
+</html>
